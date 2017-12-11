@@ -60,7 +60,9 @@ article{
 }
 
 h1, span{
-	font-size: 6rem;
+	font-weight: 700; 
+	font-style: normal;
+	font-size: 6.4rem;
 	font-family: 'Saira Extra Condensed',serif;
 	line-height: 4.5rem;
 	color: #89a9b7
@@ -97,7 +99,7 @@ figure{
 
 img{
 	border-radius: 50%;
-	border: 0.5rem solid #998c8c;
+	border: 0.5rem solid #eed4a9;
 }
 
 
@@ -106,6 +108,7 @@ a, h3{
 	color: #998c8c;
 	font-family: 'Saira Extra Condensed',serif;
 	line-height: 3.5rem;
+	font-weight: 6700;
 }
 
 a{
