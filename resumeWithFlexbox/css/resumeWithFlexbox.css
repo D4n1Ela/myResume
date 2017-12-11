@@ -1,0 +1,136 @@
+*{
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	color: #998c8c;
+	font-family: 'Open Sans', sans-serif;
+	/*font-size: 1rem;*/
+	font-weight: bold;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	/*position: relative;*/
+	background-color: pink;
+}
+
+/*
+.leftBox{
+	background-color: green;
+	width: 20%;
+	height: 700px;
+	position: fixed;
+}
+*/
+
+aside{
+	width: 20%;
+	background-color: #afa93e;
+	height: 700px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+}
+
+section{
+	background-color: #fbfcfc;
+	width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+
+article{
+	/*background-color: yellow;*/
+	border-bottom: 1px solid grey;
+	width: 90%;
+	height: 700px;
+		display: flex;
+		align-items: center;
+}
+
+h1, span{
+	font-size: 6rem;
+	font-family: 'Saira Extra Condensed',serif;
+	line-height: 4.5rem;
+	color: #89a9b7
+	/*color: #343a40;*/
+}
+
+
+.content{
+	margin-top: 3rem;
+}
+
+h2{
+	font-size: 3rem;
+	color: #89a9b7;
+
+	font-family: 'Saira Extra Condensed',serif;
+	font-weight: bold;
+
+}
+
+
+
+
+
+li, p{
+
+	font-weight: normal;
+
+}
+
+span{
+	color: #afa93e;
+}
+
+
+
+figure{
+	padding-top: 2.5rem;
+	width: 25%;
+		display: flex;
+		justify-content: space-between;
+}
+
+img{
+	border-radius: 50%;
+	border: 0.5rem solid #998c8c;
+}
+
+
+a, h3{
+	font-size: 1.5rem;
+	color: #998c8c;
+	font-family: 'Saira Extra Condensed',serif;
+
+
+}
+
+a{
+	color: #eed4a9;
+}
+
+
+
+ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+/*
+.myPadding{
+	padding: 1rem;
+}
+*/
