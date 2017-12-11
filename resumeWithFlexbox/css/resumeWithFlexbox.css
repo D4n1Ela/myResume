@@ -20,18 +20,21 @@ main{
 	background-color: pink;
 }
 
-/*
+
 .leftBox{
-	background-color: green;
+	background-color: #afa93e;
 	width: 20%;
 	height: 700px;
 	position: fixed;
+	    display: flex;
+		align-items: center;
+		justify-content: space-around;
 }
-*/
+
 
 aside{
 	width: 20%;
-	background-color: #afa93e;
+	background-color: green;
 	height: 700px;
 		display: flex;
 		align-items: center;
