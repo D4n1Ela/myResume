@@ -59,7 +59,7 @@ article{
 		align-items: center;
 }
 
-h1, span{
+h1, h1>span{
 	font-weight: 700; 
 	font-style: normal;
 	font-size: 6.4rem;
@@ -86,7 +86,7 @@ li, p{
 	font-weight: normal;
 }
 
-span{
+h1>span{
 	color: #afa93e;
 }
 
@@ -121,8 +121,14 @@ ul{
 		align-items: center;
 }
 
+.title{
+	color: #fbfcfc;
+	font-size: 1.8rem;
+}
 
-
+.course li>ol>li{
+	padding-left: 1rem;
+}
 /*
 .myPadding{
 	padding: 1rem;
